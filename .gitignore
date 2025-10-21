@@ -1,0 +1,15 @@
+/target
+/vendor
+/.cargo
+/models
+*.gguf
+*.bin
+*.safetensors
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.h5
+*.pb
+*.model
+*.weights

@@ -1,0 +1,13 @@
+[package]
+name = "llm-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+llama_cpp = "0.3.2"
+tokenizers = { version = "0.22.0", default-features = false, features = [
+    "onig",
+    "progressbar",
+] }
+anyhow = "1.0"
+clap = { version = "4.5.3", features = ["derive"] }
